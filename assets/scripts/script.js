@@ -123,3 +123,12 @@ console.log(letters)
 
 console.log('Using the join method')
 console.log(letters.join(' | '))
+
+/**
+ * THE NEW AT METHOD
+ */
+
+console.log('Using the at() method');
+console.log(array);
+console.log(array.at(0));
+console.log(array.at(-1));
