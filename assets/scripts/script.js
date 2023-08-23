@@ -81,8 +81,8 @@ const array = ['a', 'b', 'c', 'd', 'e']
  * SLICE METHOD
  */
 
-console.log('Using the slice method');
-console.log(array);
+console.log('Using the slice method')
+console.log(array)
 console.log(array.slice(-1))
 console.log(array)
 // console.log(array.slice(2));
@@ -96,30 +96,30 @@ console.log(...array)
 console.log('Using the splice method')
 console.log(array)
 console.log(array.splice(-1))
-console.log(array);
+console.log(array)
 
 /**
  * REVERSE METHOD
  */
 
-console.log('Using the reverse method');
-console.log(array);
-console.log(array.reverse());
+console.log('Using the reverse method')
+console.log(array)
+console.log(array.reverse())
 
 /**
  * CONCAT METHOD
  */
 
-console.log('Using the concat method');
+console.log('Using the concat method')
 const array2 = ['j', 'i', 'h', 'g', 'f']
 array.reverse()
 array2.reverse()
 const letters = array.concat(array2)
-console.log(letters);
+console.log(letters)
 
 /**
  * JOIN METHOD
  */
 
 console.log('Using the join method')
-console.log(letters.join(' | '));
+console.log(letters.join(' | '))
